@@ -10,15 +10,12 @@ SSD1306  display(0x3c, D1, D2);
 
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
-char auth[] = "36OX8bw_7as2pjp3Q_vbz8Owtkfi1DjB";
+char auth[] = "";
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-//char ssid[] = "057b76";
-//char pass[] = "274843262";
 
-
-char ssid[] = "OnePlus3";
+char ssid[] = "AP";
 char pass[] = "12345678";
 
 const int CLOCK_PIN = D5;
